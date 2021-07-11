@@ -10,7 +10,8 @@ import { RichText } from 'prismic-dom';
 import { getPrismicClient } from '../../../services/prismic';
 import { ISession } from '../../api/auth/[...nextauth]';
 
-import { IPostPreviewProps } from './@interfaces';
+import { IPostPreviewProps } from '../../../@interfaces/pages/posts/preview';
+
 import styles from '../post.module.scss';
 
 export default function PostPreview({ post }: IPostPreviewProps) {

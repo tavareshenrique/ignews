@@ -9,7 +9,7 @@ import { RichText } from 'prismic-dom';
 
 import { getPrismicClient } from '../../services/prismic';
 
-import { IPostsProps } from './@interfaces';
+import { IPostsProps } from '../../@interfaces/pages/posts';
 import styles from './styles.module.scss';
 
 export default function Posts({ posts }: IPostsProps) {

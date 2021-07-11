@@ -6,7 +6,7 @@ import { RichText } from 'prismic-dom';
 import { getPrismicClient } from '../../services/prismic';
 import { ISession } from '../api/auth/[...nextauth]';
 
-import { IPostProps } from './@interfaces';
+import { IPostProps } from '../../@interfaces/pages/posts';
 import styles from './post.module.scss';
 
 export default function Post({ post }: IPostProps) {
